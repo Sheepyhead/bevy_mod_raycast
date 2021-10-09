@@ -65,7 +65,7 @@ fn setup_ui(mut commands: Commands, asset_server: Res<AssetServer>) {
                     TextSection {
                         value: "Direct!".to_string(),
                         style: TextStyle {
-                            font: font.clone(),
+                            font,
                             font_size: 30.0,
                             color: Color::WHITE,
                         },

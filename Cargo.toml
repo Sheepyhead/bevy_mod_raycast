@@ -10,10 +10,10 @@ keywords = ["gamedev", "graphics", "bevy", "3d", "raycast"]
 categories = ["game-engines", "rendering"]
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", version = "0.5", default-features = false, features = ["render"] }
+bevy = { git = "https://github.com/bevyengine/bevy"}
 
 [dev-dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", version = "0.5", default-features = false, features = [
+bevy = { git = "https://github.com/bevyengine/bevy", features = [
     "render",
     "bevy_wgpu",
     "bevy_winit",
